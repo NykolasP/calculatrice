@@ -9,7 +9,9 @@
 </head>
 
 <body>
-    <section id="main"></section>
+    <section id="main">
+        Aller dans le répertoire et exécuter la commande "php .\src\test\testuser.php"
+    </section>
 </body>
 
 </html>

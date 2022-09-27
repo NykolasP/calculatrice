@@ -10,7 +10,7 @@
 
 <body>
     <section id="main">
-        Aller dans le répertoire et exécuter la commande "php .\src\test\testuser.php"
+        <a href="./src/test/testuser.php">testUser Résult</a>
     </section>
 </body>
 

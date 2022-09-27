@@ -43,6 +43,11 @@ class User {
         if($this->age <= 13){
             $erreurs[] = "Vous êtes trop jeune";
         }
-        return $erreurs;
+        if($erreurs){
+            return $erreurs;
+        } else {
+            return "User Valide";
+        }
+        
     }
 }

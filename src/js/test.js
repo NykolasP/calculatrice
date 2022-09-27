@@ -33,7 +33,7 @@ console.log("Nombre 2  : "+number2)
 console.log("Nombre 3  : "+number3)
 
 let calculatrice = new Calculator(number1,number2)
-console.log("--------------")
+console.log("--- Selection "+number1+" & "+number2+" ---")
 // Addition
 let addition = calculatrice.add()
 console.log("Addition : "+ number1+" + "+number2+" = "+addition)
@@ -49,4 +49,23 @@ console.log("multiplication : "+ number1+" * "+number2+" = "+multiplication)
 // division
 let division = calculatrice.div()
 console.log("division : "+number1+" / "+number2+" = "+division)
+console.log("--------------")
+
+let calculatrice2 = new Calculator(number1,number3)
+console.log("--- Selection "+number1+" & "+number3+" ---")
+// Addition
+let addition2 = calculatrice2.add()
+console.log("Addition : "+ number1+" + "+number3+" = "+addition2)
+
+// Soustraction
+let Soustraction2 = calculatrice2.sub()
+console.log("Soustraction : "+ number1+" - "+number3+" = "+Soustraction2)
+
+// multiplication
+let multiplication2 = calculatrice2.mul()
+console.log("multiplication : "+ number1+" * "+number3+" = "+multiplication2)
+
+// division
+let division2 = calculatrice2.div()
+console.log("division : "+number1+" / "+number3+" = "+division2)
 console.log("--------------")
